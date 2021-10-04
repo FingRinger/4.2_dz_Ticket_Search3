@@ -54,4 +54,11 @@ class TicketManagerTest {
     Ticket[] actual = manager.searchBy("DME", "CDG");
     assertArrayEquals(expected,actual);
     }
+
+    @Test
+    public void shouldFindDMEtoLEDbyTime(){
+        Ticket[] expected = new Ticket[]{ticket5, ticket2};
+        Ticket[] actual = manager.searchBy("DME", "LED");
+        assertArrayEquals(expected,actual);
+    }
 }

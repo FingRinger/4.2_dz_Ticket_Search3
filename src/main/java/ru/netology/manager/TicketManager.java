@@ -22,7 +22,7 @@ public class TicketManager {
         TicketByTimeAscComparator comparator = new TicketByTimeAscComparator();
 
 
-        for (Ticket ticket : repo.findAll(from, to, comparator) {
+        for (Ticket ticket : repo.findAll(from, to, comparator)) {
             if (matches(ticket, from, to)) {
                 Ticket[] tmp = new Ticket[result.length + 1];
                 System.arraycopy(result, 0, tmp, 0, result.length);
