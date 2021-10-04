@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c106264f-e681-4ea6-936d-8baa0bc63302" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/manager/TicketManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/manager/TicketManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/manager/TicketManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/manager/TicketManagerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +52,22 @@
       <recent name="ru.netology.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TicketManagerTest.shouldFindDMEtoLEDbyTime">
+  <component name="RunManager" selected="JUnit.TicketManagerTest">
+    <configuration name="TicketManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="4.2_dz_Ticket_Search3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.manager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.manager" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.manager.TicketManagerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TicketManagerTest.shouldFindDMEtoLED" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="4.2_dz_Ticket_Search3" />
       <extension name="coverage">
@@ -82,22 +95,6 @@
       <option name="PACKAGE_NAME" value="ru.netology.manager" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.manager.TicketManagerTest" />
       <option name="METHOD_NAME" value="shouldFindDMEtoLEDbyTime" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TicketManagerTest.shouldFindSPbtoParis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="4.2_dz_Ticket_Search3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.netology.manager.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.netology.manager" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.manager.TicketManagerTest" />
-      <option name="METHOD_NAME" value="shouldFindSPbtoParis" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TicketManagerTest" />
         <item itemvalue="JUnit.TicketManagerTest.shouldFindDMEtoLEDbyTime" />
         <item itemvalue="JUnit.TicketManagerTest.shouldNotFindAnyTickets" />
         <item itemvalue="JUnit.TicketManagerTest.shouldFindDMEtoLED" />
         <item itemvalue="JUnit.TicketManagerTest.shouldNotFindSPbtToParisAscendingPrice" />
-        <item itemvalue="JUnit.TicketManagerTest.shouldFindSPbtoParis" />
       </list>
     </recent_temporary>
   </component>
