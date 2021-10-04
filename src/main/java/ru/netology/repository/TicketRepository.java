@@ -4,6 +4,7 @@ import ru.netology.domain.Ticket;
 
 public class TicketRepository {
     private Ticket[] tickets = new Ticket[0]; // new Ticket  - это мы используем конструктор
+
     public void save(Ticket unit) { // благодаря конструктору без параметров мы в тестах можем писать new Ticket
         int length = tickets.length + 1;
         Ticket[] tmp = new Ticket[length];
@@ -30,7 +31,7 @@ public class TicketRepository {
         int length = tickets.length - 1;
         Ticket[] tmp = new Ticket[length];
         int index = 0;
-        for (Ticket unit : tickets){
+        for (Ticket unit : tickets) {
             if (unit.getId() != id) {
                 tmp[index] = unit;
                 index++;
