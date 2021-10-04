@@ -35,13 +35,6 @@ class TicketManagerTest {
     }
 
     @Test
-    public void shouldNotFindSPbtToParisAscendingPrice(){
-        Ticket[] expected = new Ticket[]{ticket3,ticket4};
-        Ticket[] actual = manager.searchBy("LED","CDG");
-        assertArrayEquals(expected, actual);
-    }
-
-    @Test
     public void shouldFindDMEtoLED(){
         Ticket[] expected = new Ticket[]{ticket2,ticket5};
         Ticket[] actual = manager.searchBy("DME","LED");
