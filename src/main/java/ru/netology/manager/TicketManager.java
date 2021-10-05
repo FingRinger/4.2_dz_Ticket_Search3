@@ -17,9 +17,8 @@ public class TicketManager {
         repo.save(ticket);
     }
 
-    public Ticket[] searchBy(String from, String to) {
+    public Ticket[] searchBy(String from, String to, TicketByTimeAscComparator comparator) {
         Ticket[] result = new Ticket[0];
-        TicketByTimeAscComparator comparator = new TicketByTimeAscComparator();
 
 
         for (Ticket ticket : repo.findAll(from, to, comparator)) {
@@ -27,10 +26,10 @@ public class TicketManager {
                 Ticket[] tmp = new Ticket[result.length + 1];
                 System.arraycopy(result, 0, tmp, 0, result.length);
                 tmp[tmp.length - 1] = ticket;
-                Arrays.sort(tmp, comparator);
                 result = tmp;
             }
         }
+        Arrays.sort(result, comparator);
         return result;
     }
 

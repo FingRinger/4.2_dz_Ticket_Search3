@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c106264f-e681-4ea6-936d-8baa0bc63302" name="Default Changelist" comment="" />
+    <list default="true" id="c106264f-e681-4ea6-936d-8baa0bc63302" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/manager/TicketManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/manager/TicketManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/manager/TicketManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/manager/TicketManagerTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +54,7 @@
       <recent name="ru.netology.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TicketManagerTest">
+  <component name="RunManager" selected="JUnit.TicketManagerTest.shouldFindDMEtoLEDbyTime">
     <configuration name="TicketManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="4.2_dz_Ticket_Search3" />
       <extension name="coverage">
@@ -132,8 +136,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TicketManagerTest" />
         <item itemvalue="JUnit.TicketManagerTest.shouldFindDMEtoLEDbyTime" />
+        <item itemvalue="JUnit.TicketManagerTest" />
         <item itemvalue="JUnit.TicketManagerTest.shouldNotFindAnyTickets" />
         <item itemvalue="JUnit.TicketManagerTest.shouldFindDMEtoLED" />
         <item itemvalue="JUnit.TicketManagerTest.shouldNotFindSPbtToParisAscendingPrice" />

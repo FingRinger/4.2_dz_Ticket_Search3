@@ -3,6 +3,7 @@ package ru.netology.manager;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import ru.netology.domain.Ticket;
+import ru.netology.domain.TicketByTimeAscComparator;
 import ru.netology.repository.TicketRepository;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -30,7 +31,7 @@ class TicketManagerTest {
     @Test
     public void shouldFindDMEtoLEDbyTime(){
         Ticket[] expected = new Ticket[]{ticket5, ticket2};
-        Ticket[] actual = manager.searchBy("DME", "LED");
+        Ticket[] actual = manager.searchBy("DME", "LED", new TicketByTimeAscComparator());
         assertArrayEquals(expected,actual);
     }
 }
