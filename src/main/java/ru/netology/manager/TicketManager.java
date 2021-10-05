@@ -24,18 +24,19 @@ public class TicketManager {
                 Ticket[] tmp = new Ticket[result.length + 1];
                 System.arraycopy(result, 0, tmp, 0, result.length);
                 tmp[tmp.length - 1] = ticket;
-                Arrays.sort(tmp);
                 result = tmp;
             }
         }
+        Arrays.sort(result);
         return result;
     }
-        public boolean matches(Ticket ticket, String from, String to) {
-            if (ticket.getFrom().contains(from) && ticket.getTo().contains(to)) {
-                return true;
-            }
-            return false;
+
+    public boolean matches(Ticket ticket, String from, String to) {
+        if (ticket.getFrom().contains(from) && ticket.getTo().contains(to)) {
+            return true;
         }
+        return false;
     }
+}
 
 
